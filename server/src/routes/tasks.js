@@ -1,6 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-import { Task } from "../models/Task.js";
+import { Task } from "../model/Task.js";
 import { asyncHandler } from "../middleware/error.js";
 
 const router = express.Router();
